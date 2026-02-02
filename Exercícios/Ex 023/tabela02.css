@@ -1,7 +1,16 @@
-a{
+a p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: black;
+    display: inline-block;
+    padding: 2px;
+    gap: 5px;
+    background-color: pink;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a p:hover{
+ background: linear-gradient(50deg,  pink, rgb(74, 74, 179));
 }
 table{
     position: relative;
@@ -38,6 +47,9 @@ caption{
 }
 td.num{
     text-align: right;
+}
+td.numh{
+    text-align: center;
 }
 tbody>tr:nth-child(2n){
     background-color:  pink;

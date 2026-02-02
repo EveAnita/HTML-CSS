@@ -3,9 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+div#container{
+overflow-x: auto;
+}
 table{
   border-collapse: collapse;
   width: 600px;
+}
+caption{
+    font-size:1.2em;
+    font-weight: bolder;
+    padding: 20px;
 }
 tr,th{
     border: 1px solid pink;
@@ -26,4 +37,7 @@ a p{
 }
 a p:hover{
     background: linear-gradient(to right, pink, rgb(74, 74, 179));
+}
+tbody > tr:nth-child(2n){
+    background: linear-gradient(60deg,purple,pink);
 }
