@@ -8,9 +8,25 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
          iframe{
-                width: 300px;
                 display:block;
                 margin: auto;
+
+            }
+
+            .erro{
+                background-image: url(error--v1.jpg);
+                background-size: contain;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+                font-weight: 400;
+                font-family: 'Courier New', Courier, monospace;
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: rgb(206, 61, 206);
+                border: none;
+                border-radius: 25px;
             }
     </style>
     <title>teste de Iframe</title>
@@ -19,12 +35,14 @@
     <h1>Teste com Iframe</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae, velit animi provident placeat, blanditiis perferendis voluptatem, explicabo nostrum repellat necessitatibus totam. Iusto unde, natus a ex ratione amet dolorum?</p>
 
-    <iframe src="https://github.com/EveNagazashi/HTML-CSS/tree/main/Exerc%C3%ADcios" frameborder="0" height="250px" width="100%"></iframe>
+    <iframe src="https://github.com/EveNagazashi/HTML-CSS/tree/main/Exerc%C3%ADcios" frameborder="0" height="250px" width="100%">
+        <p class="erro">Infelizmente seu navegador não é compatível</p>
+    </iframe>
 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere nisi natus corrupti consequuntur magnam ipsa odit quas dicta dolore minima, ipsum nam illo voluptatem, harum quidem fugiat, numquam explicabo.</p>
 
     <a href="Iframe001.html" target="_self">Volte aqui</a>
 
-    <iframe src="../Ex 023/tabela06.html" frameborder="0" height="250px" width="100%"></iframe>
+    <iframe src="Pag-extras/site001.html" frameborder="0" height="250px" width="100%"></iframe>
 </body>
 </html>
