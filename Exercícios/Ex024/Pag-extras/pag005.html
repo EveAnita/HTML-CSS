@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: rgb(255, 242, 127);
+        }
+        a{
+            padding: 10px 45px;
+            border-radius: 25px;
+            color: black;
+            background-color: cyan;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Clique aqui</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+             let s = window.document.getElementById('saida');
+            s.innerHTML += '<p>Você clicou </p>';
+        }
+    </script>
+</body>
+</html>
