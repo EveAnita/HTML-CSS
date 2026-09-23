@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.java" autocomplete="on" method="get">
+
+        <p><label for="Name" id="Name" required>Name:</label><input placeholder="Write your name" type="text" name="Name" id="Name"></p>
+
+        <p><label for="senha" id="senha" required placeholder="Write your password" >PassWord:</label><input placeholder="Write your password" min-length="12" type="password" name="senha" id="senha"></p>
+        
+
+        <p><input type="submit" value="Ok" id="submit" class="submit2"></p>
+        <p><input type="reset" value="Clear" id="reset" class="submit2"></p>
+
+    </form>
+    <a href="index.html" target="_self" rev="prev">Return Form</a>
+</body>
+</html>

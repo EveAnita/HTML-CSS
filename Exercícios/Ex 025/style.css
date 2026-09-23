@@ -1,0 +1,84 @@
+body{
+            font-family: sans-serif;
+            font-weight: 400;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        form{
+            width: 350px;
+            height:200px;
+            border:solid 3px transparent;
+            border-image: linear-gradient(to right, purple,blue) 5;
+             align-items: end;
+            justify-content: end;
+            display: inline-block;
+        }
+
+        .submit{
+            flex-direction: row;
+            display: inline-block;
+            padding: 10px 30px;
+            margin:5px 5px;
+            position: relative;
+            left: 5%;
+            text-align: center;
+            background-color: transparent;
+            border: none;
+            border-radius: 30px;
+            background-image: linear-gradient(to right, purple,blue);
+            color: white;
+            text-transform: uppercase;
+        
+        }
+         .submit:hover{
+             border: 1px black solid;
+            transition: 0.10s;
+            transform:scale(10px 30px);
+            }
+
+            .submit2{
+            flex-direction: row;
+            display: inline-block;
+            padding: 10px 30px;
+            margin:5px 5px;
+            position: relative;
+            left: 30%;
+            background-color: transparent;
+            border: none;
+            border-radius: 30px;
+            background-image: linear-gradient(to right, purple,blue);
+            color: white;
+            text-transform: uppercase;
+        
+        }
+         .submit2:hover{
+             border: 1px black solid;
+            transition: 0.10s;
+            transform:scale(10px 30px);
+            }
+            
+            p{
+                margin: 10px;
+
+            }
+
+            a{
+                font-size: 20px;
+                text-decoration:none;
+                color:black;
+                border:1px solid black;
+                padding:10px 5px;
+                border-radius: 10px 5px;
+            }
+            label{
+                font-size:18px;
+                font-weight: 400;
+                margin: 5px;
+            }
+            input[type="text"], input[type="password"]{
+                font-size: 15px;
+                padding: 5px 10px;
+            }

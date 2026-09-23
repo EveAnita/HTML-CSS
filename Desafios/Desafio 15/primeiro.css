@@ -22,22 +22,22 @@ section.telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 627px;
-    width: 311px;
-    background-image: url(imagens/frame-iphone.png);
+    height: 836px;
+    width: 836px;
+    background-image: url(imagens/GalaxyA15.png);
     background-repeat: no-repeat;
 } 
 
 iframe.tela{
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    border-radius: 20px;
+     top: 21%;
+    left: 33%;
+    width: 186px;
+    height: 377px;
 }
 
 section.redes-sociais img{
-
     text-align: right;
     width: 70px;
     height: 70px;
@@ -52,7 +52,7 @@ section.redes-sociais img:hover {
  border: 3px solid rgba(243, 241, 245, 0.849);
   transform: translate(-3px,-3px);
     box-shadow:1px 1px 1px black;
-    transition: all 3s, border 3s;
+    transition: all 3s,  border 3s linear;
 }
 
 section.redes-sociais{
